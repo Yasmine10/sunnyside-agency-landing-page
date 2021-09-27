@@ -1,11 +1,14 @@
-import './App.scss';
-import Home from "./pages/home.js";
+import "./styles/main.scss";
+import Header from "./components/Header"
+import Home from "./pages/home";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <Header />
       <Home />
+      <Footer />
     </div>
   );
 }
