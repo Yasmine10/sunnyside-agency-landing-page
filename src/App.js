@@ -1,4 +1,4 @@
-import "./styles/main.scss";
+import "./styles/_main.scss";
 import Header from "./components/Header"
 import Home from "./pages/home";
 import Footer from "./components/Footer";
