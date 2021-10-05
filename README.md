@@ -48,6 +48,8 @@ Users should be able to:
 
     ```js
     import { ReactComponent as FacebookIcon } from "../assets/images/icon-facebook.svg";
+
+    <FacebookIcon className="icon" />;
     ```
 
 -   The stripe under the learn more buttons was also new for me and took me a little bit to figure out but I got there in the end.
