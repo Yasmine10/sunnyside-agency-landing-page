@@ -1,16 +1,16 @@
-import "./styles/_main.scss";
-import Header from "./components/Header"
+import "./styles/main.scss";
+import Header from "./components/Header";
 import Home from "./pages/home";
 import Footer from "./components/Footer";
 
 function App() {
-  return (
-    <div className="App">
-      <Header />
-      <Home />
-      <Footer />
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header />
+            <Home />
+            <Footer />
+        </div>
+    );
 }
 
 export default App;
